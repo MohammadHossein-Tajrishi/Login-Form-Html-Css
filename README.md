@@ -1,31 +1,31 @@
-Login-Form-Html-Css
+🚀 Login-Form-Html-Css
+---
 
-
-🚀 پروژه فرم لاگین شیک و حرفه‌ای با HTML & CSS
+💻 پروژه فرم لاگین شیک و حرفه‌ای با HTML & CSS
 
 🔹 فارسی
 
-توضیحات:
-این پروژه یک فرم لاگین فوق‌العاده شیک است که با HTML و CSS طراحی شده و تمرکز آن بر روی کدنویسی اصولی، انیمیشن‌های جذاب و افکت‌های هاور خلاقانه است.
+✨ توضیحات:
+این پروژه یک فرم لاگین فوق‌العاده شیک است که با HTML و CSS طراحی شده و تمرکز آن بر روی:
 
-ویژگی‌ها:
+🖌️ طراحی مینیمال و مدرن
 
-هاور فوق‌العاده خلاقانه و خاص
+🎨 انیمیشن‌های جذاب و روان
 
-انیمیشن جذاب و روان
+✨ افکت‌های هاور خلاقانه
 
-کدنویسی تمیز و اصولی (Clean & Semantic Code)
+🧹 کدنویسی تمیز، اصولی و حرفه‌ای
 
-هدف پروژه:
+🎯 هدف پروژه:
 
 نمونه کار حرفه‌ای برای نمایش توانایی‌ها
 
 جذب پروژه‌ها و فرصت‌های شغلی
 
-پیش‌نمایش:
+🖼️ پیش‌نمایش:
 
 
-نحوه استفاده:
+⚡ نحوه استفاده:
 
 پروژه را دانلود یا کلون کنید
 
@@ -33,27 +33,27 @@ Login-Form-Html-Css
 
 🔹 English
 
-Description:
-This is a sleek and professional login form designed with HTML & CSS, focusing on clean coding, attractive animations, and creative hover effects.
+✨ Description:
+This is a sleek and professional login form designed with HTML & CSS, focusing on:
 
-Features:
+🖌️ Minimal & modern design
 
-Unique and creative hover effects
+🎨 Smooth and attractive animations
 
-Smooth and attractive animations
+✨ Creative hover effects
 
-Clean, semantic, and professional code
+🧹 Clean, semantic, and professional code
 
-Project Goal:
+🎯 Project Goal:
 
-Serve as a professional portfolio piece
+Showcase skills as a professional portfolio piece
 
-Showcase skills for potential projects and job opportunities
+Attract projects and job opportunities
 
-Preview:
+🖼️ Preview:
 
 
-How to use:
+⚡ How to use:
 
 Download or clone the project
 
