@@ -1,0 +1,199 @@
+/*-----Programmer: Mohammad Hossein Tajrishi-----*/
+/* ---------- universal selector ---------- */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-color:rgb(236, 233, 225);
+    --primary-color:rgba(12, 121, 149);
+    --secondary-color:rgb(153, 44, 42);
+}
+body{
+    background-image: url(Assets/data-illustration-7680x4320-23185.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.Body{
+    background-color: rgba(0, 0, 0, 0.274);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*---------- Form Design ---------- */
+form{
+    backdrop-filter: blur(6px);
+    width: 400px;
+    border: 2px solid var(--main-color);
+    border-radius: 25px;
+    box-shadow: 0px 2px 15px var(--secondary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+}
+.logintext{
+    background-color: var(--main-color);
+    position: absolute;
+    top: 0;
+    width: 110px;
+    height: 50px;
+    border-radius: 0px 0px 9px 9px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 26px;
+    font-family: 'Playwrite',sans-serif;
+}
+.logintext::before{
+    content: '';
+    background-color: transparent;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    top: 0;
+    left: -30px;
+    border-top-right-radius: 50%;
+    box-shadow: 15px 0 0 0 var(--main-color);
+}
+.logintext::after{
+    content: '';
+    background-color: transparent;
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    right: -30px;
+    top: 0;
+    border-top-left-radius: 50%;
+    box-shadow: -15px 0 0 0 var(--main-color);
+}
+.input{
+    background: none;
+    border: 2px solid var(--main-color);
+    border-radius: 25px;
+    height: 55px;
+    width: 310px;
+    margin-top: 30px;
+    outline: none;
+    color: var(--main-color);
+    padding: 15px;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: 'Playwrite',sans-serif;
+}
+.input:focus ~ .label,
+.input:valid ~ .label{
+    position: absolute;
+    margin-top: 13px;
+    left: 80px;
+    background-color: var(--main-color);
+    color: black;
+    font-size: 16px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.label{
+    color: var(--main-color);
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 20px;
+    position: absolute;
+    left: 60px;
+    margin-top: 46px;
+    transition: 0.5s;
+}
+#icon{
+    color: var(--main-color);
+    font-size: 20px;
+    position: absolute;
+    right: 60px;
+    margin-top: 46px;
+}
+#iconeye{
+    color: rgba(255, 255, 255, 0.575);
+    font-size: 20px;
+    position: absolute;
+    right: 90px;
+    margin-top: 46px;
+}
+/*---------- Forget - remember ----------*/
+.forget-remember{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+    margin-top: 30px;
+}
+#checkbox{
+    margin-right: 8px;
+}
+.remember label{
+    color: var(--main-color);
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 16px;
+    transition: 0.2s linear;
+}
+#checkbox:checked{
+    accent-color: rgb(139, 197, 2);
+}
+#checkbox:checked ~ label{
+    color: rgb(139, 197, 2);
+}
+.forget a{
+    color: var(--main-color);
+    text-decoration: none;
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s linear;
+}
+.forget a:hover{
+    color: rgb(139, 197, 2);
+}
+/*---------- button ---------*/
+button{
+    background: none;
+    border: 2px solid var(--main-color);
+    border-radius: 25px;
+    height: 55px;
+    width: 310px;
+    margin-top: 30px;
+    color: var(--main-color);
+    font-family: 'Playwrite',sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 18px;
+    transition: 0.5s linear;
+}
+button:hover{
+    background-color: var(--main-color);
+    color: black;
+}
+/*---------- Account ----------*/
+.account{
+    margin-bottom: 36px;
+}
+.account span{
+    color: var(--main-color);
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 16px;
+    
+}
+.account a{
+    color:var(--main-color);
+    font-family: 'Fira Sans',sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-left: 3px;
+    transition: 0.3s linear;
+}
+.account a:hover{
+    color: rgb(139, 197, 2);
+}
